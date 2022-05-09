@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ConstaXI/solana_airdrop/issues"
   },
-  "homepage": "https://github.com/ConstaXI/solana_airdrop#readme"
+  "homepage": "https://github.com/ConstaXI/solana_airdrop#readme",
+  "dependencies": {
+    "@solana/web3.js": "^1.41.4"
+  }
 }
