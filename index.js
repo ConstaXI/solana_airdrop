@@ -25,7 +25,7 @@ const airDropSol = async () => {
     try {
         const connection = new Connection(clusterApiUrl('devnet'), 'confirmed')
         const fromAirDropSignature = await connection.requestAirdrop(publicKey, 2 * LAMPORTS_PER_SOL)
-        await connection.confirmTransaction(fromAirDropSignature, )
+        await connection.confirmTransaction(fromAirDropSignature)
     } catch(error) {
         console.error(error)
     }
